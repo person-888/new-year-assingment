@@ -84,7 +84,7 @@ height: 100%;
 .midnight-party-container{
     width: 1320px;
 height: 600px;
-border: 2px solid red;
+
 margin: 0 auto;
 display: flex;
 background-image: url("images/Vectorrr.png");
@@ -95,7 +95,7 @@ background-size: cover;
 .leftside-content{
    width: 50%; 
    height: 600px;
-   
+   color: white;
    display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,23 +108,25 @@ background-size: cover;
     height: 600px;
 
     align-items: center;
-
+     margin-left: 30px;
 }
 .leftside-content h3{
-     color: rgb(205, 200, 200);
+     color: rgb(254, 251, 251);
  font-family: Merriweather;
  font-size: 64px;
  font-weight: 900;
 }
-#leftside-content-join{
-font-size: larger;   
+#leftside-join{
+font-size:20px;   
 position: relative;
 width: 167px;
 height: 56px;
 display: flex;
-flex-direction: row;
 justify-content: center;
 color: white;
+background-color: rgb(245, 4, 4);
+text-align: center;
+
 }
 .rightside-content{
     display: flex;
@@ -137,4 +139,68 @@ color: white;
     height: 70%;
     width: 60%;
     background-color: ;
+}
+/*protfolio style*/
+
+ .protfol-container{
+    width: 1320px;
+    height: 1163px;
+    
+    margin: 0 auto;
+    left: 140px;
+right: -140px;
+top: 4707.07px;
+bottom: -4707.07px;
+margin-top: 120px;
+
+}
+/* THE BEST GIFTS */
+.protol-text-content-p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+
+width: 192px;
+height: 29px;
+left: 10.61%;
+right: 74.85%;
+top: 404.74%;
+bottom: -307.23%;
+}
+/* Our Awesome Portfolio */
+.protol-text-content-h{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 30px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+top: 408.6%;
+
+}
+.protol-text-content-p1{
+    font-weight: 400; 
+     font-size: 20px;
+color: rgba(7, 2, 17, 0.6);
+margin-bottom: 50px;
+
+}
+.portfol-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item{
+    width: 424px;
+height: 450px;
+
+}
+.item img{
+    width:100%;
+height: 100%;
 }
