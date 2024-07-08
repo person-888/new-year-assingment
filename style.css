@@ -44,9 +44,39 @@ text-align: center;
 }
 /* main style*/
 .second-section-container{
-    width: 802.9px;
+    width: 802.9px;git
     height: 806px;
-    border: 2px solid red;
+    
     margin: 0 auto ;
     margin-top: 90px;
+}
+.second-section-content h2{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    
+    
+}
+.second-section-content p{
+    font-size: 24px;
+font-weight: 500;
+text-align: center;
+margin-top: 40px;
+color: rgb(255, 0, 0);
+}
+.second-section-content h3{
+    font-size: 35px;
+font-weight: 700;
+text-align: center;
+font-family: Inter;
+
+}
+.image-conainer{
+    width: 802.9px;
+height: 500px;
+}
+.image-conainer img{
+    width: 100%;
+height: 100%;
 }
