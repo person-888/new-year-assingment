@@ -3,3 +3,50 @@ body{
     font-family: "Merriweather", serif;
 
 } 
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/*banner section*/
+.banner-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    border: 2px solid red;
+    min-height: 600px;
+    margin-top: 20px;
+    background-color:rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+background-image: url(images/Banner\ Image.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.banner-content p,h1{
+    color: white;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.banner-content h1{
+    font-size: 72px;
+font-weight: 900;
+text-align: center;
+}
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400; 
+ 
+}
+/* main style*/
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto ;
+    margin-top: 90px;
+}
