@@ -204,3 +204,33 @@ height: 450px;
     width:100%;
 height: 100%;
 }
+/*footer container style*/
+.footer-container { 
+    width: 1600px;
+    height: 609px;
+    background-color: black;
+    border: 10px  solid rgb(228, 8, 8);
+    margin: 0 auto;
+    display: flex;
+    
+    
+
+
+}
+.footer-frist-section {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+display: flex;
+
+margin-top: 50px;
+margin-bottom: 50px;
+justify-content: space-around;
+}
+
+.contact{
+    color: rgb(42, 165, 83);
+    display: flex;
+
+}
